@@ -9,6 +9,9 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
+        app-name: ['MyLinks']
+        s3-bucket: ['mylinks-codedeploy-deployments']
+        s3-filename: ['mylinks-codedeploy-${{ github.sha }}']
 
     steps:
       - uses: actions/checkout@v2
