@@ -1,6 +1,10 @@
 name: Production
 
-on: workflow_dispatch
+#on: workflow_dispatch
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:
@@ -43,17 +47,19 @@ jobs:
         deploy-group: ['myLinksDeploymentGroup']
     needs: test
     steps:
+      # Download previously shared build
+      - name: Get artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: mylinks-build
+
       - uses: actions/checkout@v2
       - name: Install AWS CLI 2
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip awscliv2.zip
           sudo ./aws/install --update
-      # Download previously shared build
-      - name: Get artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: mylinks-build
+          ls -la
       # Configure AWS credentials
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -64,7 +70,6 @@ jobs:
       # Deploy push to S3
       - name: AWS Deploy push
         run: |
-          ls -la
           aws deploy push \
           --application-name ${{ matrix.app-name }} \
           --description "Revision of the ${{ matrix.appname }}-${{ github.sha }}" \
