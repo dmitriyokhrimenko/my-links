@@ -60,6 +60,7 @@ jobs:
           unzip awscliv2.zip
           sudo ./aws/install --update
           ls -la
+          ls -la aws
       # Configure AWS credentials
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
