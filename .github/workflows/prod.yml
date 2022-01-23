@@ -48,15 +48,6 @@ jobs:
     needs: test
     steps:
       - uses: actions/checkout@v2
-      # Download previously shared build
-      - name: Get artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: mylinks-build
-          path: mylinks-build
-      - name: Show directory structure
-        run: ls -R
-
       - name: Install AWS CLI 2
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -69,6 +60,15 @@ jobs:
           aws-access-key-id: ${{ secrets.MY_LINKS_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.MY_LINKS_AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
+      # Download previously shared build
+      - name: Get artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: mylinks-build
+          path: mylinks-build
+      - name: Copy appspec.yml to build dir
+        run: cp appspec.yml mylinks-build
+
       # Deploy push to S3
       - name: AWS Deploy push
         run: |
