@@ -53,6 +53,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: mylinks-build
+          path: mylinks-build
       - name: Show directory structure
         run: ls -R
 
