@@ -9,9 +9,6 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-        app-name: ['MyLinks']
-        s3-bucket: ['mylinks-codedeploy-deployments']
-        s3-filename: ['mylinks-codedeploy-${{ github.sha }}']
 
     steps:
       - uses: actions/checkout@v2
@@ -29,22 +26,12 @@ jobs:
           npm run build
         env:
           CI: true
-      # Configure AWS credentials
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+      # Share artifact inside workflow
+      - name: Share artifact inside workflow
+        uses: actions/upload-artifact@v2
         with:
-          aws-access-key-id: ${{ secrets.MY_LINKS_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.MY_LINKS_AWS_SECRET_ACCESS_KEY }}
-          aws-region: eu-central-1
-      # Deploy push to S3
-      - name: AWS Deploy push
-        run: |
-          aws deploy push \
-          --application-name ${{ matrix.app-name }} \
-          --description "Revision of the ${{ matrix.appname }}-${{ github.sha }}" \
-          --ignore-hidden-files \
-          --s3-location s3://${{ matrix.s3-bucket }}/${{ matrix.s3-filename }}.zip \
-          --source ./
+          name: mylinks-build
+          path: build
   deploy:
     name: CD part
     runs-on: ubuntu-latest
@@ -62,6 +49,11 @@ jobs:
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip awscliv2.zip
           sudo ./aws/install --update
+      # Download previously shared build
+      - name: Get artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: mylinks-build
       # Configure AWS credentials
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -69,6 +61,15 @@ jobs:
           aws-access-key-id: ${{ secrets.MY_LINKS_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.MY_LINKS_AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
+      # Deploy push to S3
+      - name: AWS Deploy push
+        run: |
+          aws deploy push \
+          --application-name ${{ matrix.app-name }} \
+          --description "Revision of the ${{ matrix.appname }}-${{ github.sha }}" \
+          --ignore-hidden-files \
+          --s3-location s3://${{ matrix.s3-bucket }}/${{ matrix.s3-filename }}.zip \
+          --source ./
       # Creating deployment via CodeDeploy
       - name: Creating AWS Deployment
         run: |

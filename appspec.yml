@@ -1,9 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /build
-    destination: /home/ubuntu/mylinks/build
-  - source: /public
-    destination: /home/ubuntu/mylinks/public
-  - source: /appspec.yml
+  - source: /
     destination: /home/ubuntu/mylinks
