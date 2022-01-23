@@ -5,3 +5,5 @@ files:
     destination: /home/ubuntu/mylinks
   - source: /public
     destination: /home/ubuntu/mylinks
+  - source: /appspec.yml
+    destination: /home/ubuntu/mylinks
