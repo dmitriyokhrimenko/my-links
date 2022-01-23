@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: build
+  - source: /build
     destination: /home/ubuntu/mylinks
-  - source: public
+  - source: /public
     destination: /home/ubuntu/mylinks
