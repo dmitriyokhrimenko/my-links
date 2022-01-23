@@ -64,6 +64,7 @@ jobs:
       # Deploy push to S3
       - name: AWS Deploy push
         run: |
+          ls -la
           aws deploy push \
           --application-name ${{ matrix.app-name }} \
           --description "Revision of the ${{ matrix.appname }}-${{ github.sha }}" \
