@@ -1,4 +1,5 @@
-import '../App.css';
+import '../assets/css/App.css';
+import '../assets/css/Nav.css';
 
 import {
   Container,
@@ -12,13 +13,17 @@ import {
 import { data } from "../data-stub";
 import React from "react";
 import ROUTES, { RenderRoutes } from "../routes";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const categoriesRender = (data) => Object.keys(data.categories).map((categoryKey) => {
     const category = data.categories[categoryKey];
+    let navigate = useNavigate();
     return (
-        <Link key={category.id} to={category.path}>{category.title}</Link>
+      <li key={category.id}>
+        <a onClick={() => navigate(category.path)}><span className="fa fa-gift mr-3"></span> {category.title}</a>
+      </li>
+        // <Link key={category.id} to={category.path}>{category.title}</Link>
     )
 });
 
@@ -35,14 +40,22 @@ function App() {
         </Row>
         <Row>
           <Col xs={2}>
-            <Nav defaultActiveKey="/home" className="flex-column">
-              { categoriesRender(data) }
-            </Nav>
+            <Container fluid>
+                <nav id="sidebar">
+                  <ul className="list-unstyled components mb-5">
+                    { categoriesRender(data) }
+                  </ul>
+                </nav>
+            </Container>
           </Col>
           <Col xs={10}>
               <RenderRoutes routes={ROUTES} />
           </Col>
         </Row>
+          <footer className="page-footer font-small blue pt-4">
+            <div className="footer-copyright text-center py-3">© 2022 Copyright: dm.okhrimenko@gmail.com
+            </div>
+          </footer>
       </Container>
   );
 }

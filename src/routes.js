@@ -4,6 +4,7 @@ import { Category } from './pages/Category/Category'
 
 const ROUTES = [
     { path: "/", key: "ROOT", exact: true, component: () => <h1>Main page</h1> },
+    { path: "/categories/english", key: "ENGLISH", exact: true, component: () => <Category categoryKey={"ENGLISH"}/> },
     { path: "/categories/algoritms", key: "ALGORITMS", exact: true, component: () => <Category categoryKey={"ALGORITMS"}/> },
     { path: "/categories/javascript", key: "JAVASCRIPT", exact: true, component: () => <Category categoryKey={"JAVASCRIPT"}/> },
     { path: "/categories/ci-cd", key: "CI_CD", exact: true, component: () => <Category categoryKey={"CI_CD"}/> },
