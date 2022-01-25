@@ -5,7 +5,6 @@ import {
   Container,
   Row,
   Col,
-  Nav,
   Navbar,
   Image
 } from 'react-bootstrap';
@@ -13,7 +12,7 @@ import {
 import { data } from "../data-stub";
 import React from "react";
 import ROUTES, { RenderRoutes } from "../routes";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 const categoriesRender = (data) => Object.keys(data.categories).map((categoryKey) => {
@@ -21,9 +20,8 @@ const categoriesRender = (data) => Object.keys(data.categories).map((categoryKey
     let navigate = useNavigate();
     return (
       <li key={category.id}>
-        <a onClick={() => navigate(category.path)}><span className="fa fa-gift mr-3"></span> {category.title}</a>
+        <span onClick={() => navigate(category.path)}>{category.title}</span>
       </li>
-        // <Link key={category.id} to={category.path}>{category.title}</Link>
     )
 });
 

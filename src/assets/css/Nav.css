@@ -8219,14 +8219,14 @@ h1, h2, h3, h4, h5,
     margin-left: 10px; }
 #sidebar ul li > ul li {
     font-size: 14px; }
-#sidebar ul li a {
+#sidebar ul li span {
     padding: 15px 30px;
     display: block;
     color: #000000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
-#sidebar ul li a span.notif {
+#sidebar ul li span span.notif {
     position: relative; }
-#sidebar ul li a span.notif small {
+#sidebar ul li span span.notif small {
     position: absolute;
     top: -3px;
     bottom: 0;
@@ -8238,15 +8238,15 @@ h1, h2, h3, h4, h5,
     border-radius: 50%;
     font-family: "Poppins", Arial, sans-serif;
     font-size: 8px; }
-#sidebar ul li a:hover {
+#sidebar ul li span:hover {
     color: #fff;
     background: #6497b1;
     border-bottom: 1px solid #005b96;
     cursor: pointer; }
-#sidebar ul li.active > a {
+#sidebar ul li.active > span {
     background: transparent;
     color: #fff; }
-#sidebar ul li.active > a:hover {
+#sidebar ul li.active > span:hover {
     background: #2f89fc;
     border-bottom: 1px solid #2f89fc; }
 @media (max-width: 991.98px) {
