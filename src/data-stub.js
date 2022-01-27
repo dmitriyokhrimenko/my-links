@@ -44,6 +44,18 @@ export const data = {
                         url: "https://www.ryanjyost.com/react-routing/"
                     },
                 ],
+                "Angular": [
+                    {
+                        title: "Angular Основы. Полный Курс для начинающих",
+                        description: "Владилен минин",
+                        url: "https://www.youtube.com/watch?v=Rf54BH35yrY"
+                    },
+                    // {
+                    //     title: "React Router Architecture that's Simple, Scalable and Protected",
+                    //     description: "About react router",
+                    //     url: "https://www.ryanjyost.com/react-routing/"
+                    // },
+                ],
                 "Nodejs": [
                     {
                         title: "About nodejs 1",
