@@ -86,6 +86,15 @@ export const data = {
             id: 3,
             title: "CI/CD",
             path: "/categories/ci-cd",
+            subcategories: {
+                "SCM": [
+                    {
+                        title: "SaltStack — Темная лошадка систем управления конфигурациями",
+                        description: "From habr",
+                        url: "https://habr.com/ru/post/549874/",
+                    }
+                ],
+            },
         },
         "AWS": {
             id: 4,
