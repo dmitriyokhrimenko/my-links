@@ -27,8 +27,20 @@ export const data = {
 
             ],
         },
-        "JAVASCRIPT":{
+        "DESIGN_PATTERNS": {
             id: 2,
+            title: "Design Patterns",
+            path: "/categories/design-patterns",
+            links: [
+                {
+                    title: "Шаблоны проектирования с человеческим лицом",
+                    description: "Шаблоны проектирования с человеческим лицом",
+                    url: "https://habr.com/ru/company/vk/blog/325492/"
+                }
+            ],
+        },
+        "JAVASCRIPT":{
+            id: 3,
             title: "JavaScript",
             path: "/categories/javascript",
             subcategories: {
@@ -83,7 +95,7 @@ export const data = {
             },
         },
         "CI_CD": {
-            id: 3,
+            id: 4,
             title: "CI/CD",
             path: "/categories/ci-cd",
             subcategories: {
@@ -97,7 +109,7 @@ export const data = {
             },
         },
         "AWS": {
-            id: 4,
+            id: 5,
             title: "AWS",
             path: "/categories/aws",
         },
