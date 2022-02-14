@@ -36,6 +36,11 @@ export const data = {
                     title: "Шаблоны проектирования с человеческим лицом",
                     description: "Шаблоны проектирования с человеческим лицом",
                     url: "https://habr.com/ru/company/vk/blog/325492/"
+                },
+                {
+                    title: "Refactoring guru",
+                    description: "Refactoring guru",
+                    url: "https://refactoring.guru"
                 }
             ],
         },
