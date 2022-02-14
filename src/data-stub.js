@@ -44,6 +44,18 @@ export const data = {
             title: "JavaScript",
             path: "/categories/javascript",
             subcategories: {
+                "Pure js": [
+                    {
+                        title: "Decorators",
+                        description: "About decorators",
+                        url: "https://learn.javascript.ru/decorators"
+                    },
+                    // {
+                    //     title: "React Router Architecture that's Simple, Scalable and Protected",
+                    //     description: "About react router",
+                    //     url: "https://www.ryanjyost.com/react-routing/"
+                    // },
+                ],
                 "React": [
                     {
                         title: "5 Advanced React Patterns",
