@@ -70,14 +70,9 @@ export const data = {
                 ],
                 "Nestjs": [
                     {
-                        title: "About nestjs 1",
-                        description: "About react architecture",
-                        url: "https://javascript.plainenglish.io/5-advanced-react-patterns-a6b7624267a6"
-                    },
-                    {
-                        title: "About nestjs 2",
-                        description: "About react router",
-                        url: "https://www.ryanjyost.com/react-routing/"
+                        title: "Реализация гексагональной архитектуры на node.js и nest, часть 1",
+                        description: "Реализация гексагональной архитектуры на node.js и nest, часть 1",
+                        url: "https://www.youtube.com/watch?v=sMWwO9yRrCc"
                     },
                 ],
             },
