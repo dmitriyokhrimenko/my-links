@@ -30,8 +30,13 @@ export function Category(props) {
                       </>
                     )
                   })
-                  :
-                  <h3>Not found</h3>
+                  : category.links ? category.links.map((link) => {
+                        return (
+                            <Nav.Link target={"_blank"} key={link.url} href={link.url}>{link.title}</Nav.Link>
+                        )
+                    })
+                    :
+                        <h3>Not found</h3>
                 }
           </Row>
       </Container>
