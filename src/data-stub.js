@@ -103,6 +103,11 @@ export const data = {
                         description: "Реализация гексагональной архитектуры на node.js и nest, часть 1",
                         url: "https://www.youtube.com/watch?v=sMWwO9yRrCc"
                     },
+                    {
+                        title: "Гексагональная архитектура для Node.js-приложения",
+                        description: "Гексагональная архитектура для Node.js-приложения, или Как сделать код более поддерживаемым",
+                        url: "https://dou.ua/lenta/articles/hexagonal-architecture-for-nodejs/"
+                    },
                 ],
             },
         },
