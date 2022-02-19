@@ -108,6 +108,11 @@ export const data = {
                         description: "Гексагональная архитектура для Node.js-приложения, или Как сделать код более поддерживаемым",
                         url: "https://dou.ua/lenta/articles/hexagonal-architecture-for-nodejs/"
                     },
+                    {
+                        title: "Продвинутый BACKEND на Node.js. Nest js ПОЛНЫЙ КУРС & Docker",
+                        description: "Продвинутый BACKEND на Node.js. Nest js ПОЛНЫЙ КУРС & Docker",
+                        url: "https://www.youtube.com/watch?v=dDeWWQWMM-Y"
+                    },
                 ],
             },
         },
