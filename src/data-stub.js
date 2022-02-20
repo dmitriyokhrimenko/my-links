@@ -87,9 +87,9 @@ export const data = {
                 ],
                 "Nodejs": [
                     {
-                        title: "About nodejs 1",
-                        description: "About react architecture",
-                        url: "https://javascript.plainenglish.io/5-advanced-react-patterns-a6b7624267a6"
+                        title: "Многопоточность на Node.js. Event Loop",
+                        description: "Многопоточность на Node.js. Event Loop",
+                        url: "https://habr.com/ru/post/479062/"
                     },
                     {
                         title: "About nodejs 2",
