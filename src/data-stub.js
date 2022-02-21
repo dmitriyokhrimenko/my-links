@@ -116,8 +116,20 @@ export const data = {
                 ],
             },
         },
-        "CI_CD": {
+        "TYPESCRIPT": {
             id: 4,
+            title: "Typescript",
+            path: "/categories/typescript",
+            links: [
+                {
+                    title: "TypeScript #0 Введение (Introduction)",
+                    description: "TypeScript #0 Введение (Introduction)",
+                    url: "https://www.youtube.com/watch?v=MtO76yEYbxA&list=PLNkWIWHIRwMEm1FgiLjHqSky27x5rXvQa"
+                },
+            ],
+        },
+        "CI_CD": {
+            id: 5,
             title: "CI/CD",
             path: "/categories/ci-cd",
             subcategories: {
@@ -131,7 +143,7 @@ export const data = {
             },
         },
         "AWS": {
-            id: 5,
+            id: 6,
             title: "AWS",
             path: "/categories/aws",
         },
