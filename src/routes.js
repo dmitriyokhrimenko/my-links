@@ -11,38 +11,8 @@ const ROUTES = [
     { path: "/categories/typescript", key: "TYPESCRIPT", exact: true, component: () => <Category categoryKey={"TYPESCRIPT"}/> },
     { path: "/categories/ci-cd", key: "CI_CD", exact: true, component: () => <Category categoryKey={"CI_CD"}/> },
     { path: "/categories/aws", key: "AWS", exact: true, component: () => <Category categoryKey={"AWS"}/> },
+    { path: "/categories/os", key: "OS", exact: true, component: () => <Category categoryKey={"OS"}/> },
 
-    // {
-    //     path: "/category",
-    //     key: "CATEGORY",
-    //     component: () => <Category key={"CATEGORY"}/>,
-    //     routes: [
-    //         {
-    //             path: "/category/algoritms",
-    //             key: "ALGORITMS",
-    //             exact: true,
-    //             component: () => <Category key={"JAVASCRIPT"}/>,
-    //         },
-    //         {
-    //             path: "/category/javascript",
-    //             key: "JAVASCRIPT",
-    //             exact: true,
-    //             component: () => <Category key={"JAVASCRIPT"}/>,
-    //         },
-    //         {
-    //             path: "/category/ci-cd",
-    //             key: "CI_CD",
-    //             exact: true,
-    //             component: () => <Category key={"CI_CD"}/>,
-    //         },
-    //         {
-    //             path: "/category/aws",
-    //             key: "AWS",
-    //             exact: true,
-    //             component: () => <Category key={"AWS"}/>,
-    //         },
-    //     ],
-    // },
 ];
 
 /**

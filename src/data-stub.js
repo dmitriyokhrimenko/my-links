@@ -113,6 +113,11 @@ export const data = {
                         description: "Продвинутый BACKEND на Node.js. Nest js ПОЛНЫЙ КУРС & Docker",
                         url: "https://www.youtube.com/watch?v=dDeWWQWMM-Y"
                     },
+                    {
+                        title: "Authenticating users with bcrypt, Passport, JWT, and cookies",
+                        description: "Authenticating users with bcrypt, Passport, JWT, and cookies",
+                        url: "https://wanago.io/2020/05/25/api-nestjs-authenticating-users-bcrypt-passport-jwt-cookies/"
+                    },
                 ],
             },
         },
@@ -146,6 +151,21 @@ export const data = {
             id: 6,
             title: "AWS",
             path: "/categories/aws",
+        },
+        "OS": {
+            id: 7,
+            title: "OS",
+            path: "/categories/os",
+            subcategories: {
+                "MacOs": [
+                    {
+                        title: "Make an Alias in Bash or Zsh Shell in macOS with Terminal",
+                        description: "Make an Alias in Bash or Zsh Shell in macOS with Terminal",
+                        url: "https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/"
+                    },
+                ],
+            }
+        //    https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/
         },
     }
 };
