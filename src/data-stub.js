@@ -119,6 +119,13 @@ export const data = {
                         url: "https://wanago.io/2020/05/25/api-nestjs-authenticating-users-bcrypt-passport-jwt-cookies/"
                     },
                 ],
+                "Interviews": [
+                    {
+                        title: "10 Javascript Interview Questions and Answers",
+                        description: '10 Javascript Interview Questions and Answers',
+                        url: "https://javascript.plainenglish.io/10-javascript-interview-theoretical-questions-and-answers-9cb946ced642",
+                    }
+                ],
             },
         },
         "TYPESCRIPT": {
