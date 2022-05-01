@@ -17,6 +17,13 @@ export const data = {
                         url: "https://www.youtube.com/watch?v=5MgBikgcWnY"
                     },
                 ],
+                "Grammar": [
+                    {
+                        title: "Find, Find Out, and Figure Out",
+                        description: "Find, Find Out, and Figure Out",
+                        url: "https://learn.myhappyenglish.com/blog/find-find-out-and-figure-out-english-vocabulary-lesson"
+                    }
+                ],
             }
         },
         "ALGORITMS": {
