@@ -31,7 +31,11 @@ export const data = {
             title: "Algoritms",
             path: "/categories/algoritms",
             links: [
-
+                {
+                    title: "Улучшенная сортировка пузырьком на JavaScript. Шейкерная сортировка",
+                    description: "Улучшенная сортировка пузырьком на JavaScript. Шейкерная сортировка",
+                    url: "https://learn.coderslang.com/ru/0037-javascript-optimized-bubble-sort.-coctail-sort/"
+                }
             ],
         },
         "DESIGN_PATTERNS": {
