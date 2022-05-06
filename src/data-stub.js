@@ -130,6 +130,18 @@ export const data = {
                         url: "https://wanago.io/2020/05/25/api-nestjs-authenticating-users-bcrypt-passport-jwt-cookies/"
                     },
                 ],
+                "Express": [
+                    {
+                        title: "Complete Guide to Express Middleware",
+                        description: "Complete Guide to Express Middleware",
+                        url: "https://reflectoring.io/express-middleware/"
+                    },
+                    {
+                        title: "Build a REST API with Node.js, Express, TypeScript, MongoDB & Zod",
+                        description: "Build a REST API with Node.js, Express, TypeScript, MongoDB & Zod",
+                        url: "https://www.youtube.com/watch?v=BWUi6BS9T5Y"
+                    }
+                ],
                 "Interviews": [
                     {
                         title: "10 Javascript Interview Questions and Answers",
