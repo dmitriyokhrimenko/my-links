@@ -66,11 +66,11 @@ export const data = {
                         description: "About decorators",
                         url: "https://learn.javascript.ru/decorators"
                     },
-                    // {
-                    //     title: "React Router Architecture that's Simple, Scalable and Protected",
-                    //     description: "About react router",
-                    //     url: "https://www.ryanjyost.com/react-routing/"
-                    // },
+                    {
+                        title: "Сложный JavaScript простым языком",
+                        description: "Сложный JavaScript простым языком",
+                        url: "https://www.youtube.com/watch?v=aQkgUUmUJy4&list=PLqKQF2ojwm3l4oPjsB9chrJmlhZ-zOzWT"
+                    },
                 ],
                 "React": [
                     {
