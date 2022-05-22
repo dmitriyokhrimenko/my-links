@@ -134,6 +134,12 @@ export const data = {
                         description: "One to One Relations in Typeorm",
                         url: "https://www.youtube.com/watch?v=tewE75bsek4"
                     },
+                    {
+                        title: "Google oauth",
+                        description: "Google oauth",
+                        url: "https://dev.to/imichaelowolabi/how-to-implement-login-with-google-in-nest-js-2aoa"
+                    },
+
                 ],
                 "Express": [
                     {
