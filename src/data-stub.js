@@ -129,6 +129,11 @@ export const data = {
                         description: "Authenticating users with bcrypt, Passport, JWT, and cookies",
                         url: "https://wanago.io/2020/05/25/api-nestjs-authenticating-users-bcrypt-passport-jwt-cookies/"
                     },
+                    {
+                        title: "One to One Relations in Typeorm",
+                        description: "One to One Relations in Typeorm",
+                        url: "https://www.youtube.com/watch?v=tewE75bsek4"
+                    },
                 ],
                 "Express": [
                     {
