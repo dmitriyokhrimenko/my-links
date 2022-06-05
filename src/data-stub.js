@@ -90,6 +90,11 @@ export const data = {
                         description: "About redux for beginners (old approach)",
                         url: "https://web-dev.guru/reactjs/osnovy-redux-dlja-nachinajushih/"
                     },
+                    {
+                        title: "Using TypeScript with Redux Toolkit",
+                        description: "Using TypeScript with Redux Toolkit",
+                        url: "https://blog.logrocket.com/using-typescript-with-redux-toolkit/"
+                    },
                 ],
                 "Angular": [
                     {
