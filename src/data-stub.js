@@ -84,6 +84,13 @@ export const data = {
                         url: "https://www.ryanjyost.com/react-routing/"
                     },
                 ],
+                "Redux": [
+                    {
+                        title: "Основы Redux для начинающих (old approach)",
+                        description: "About redux for beginners (old approach)",
+                        url: "https://web-dev.guru/reactjs/osnovy-redux-dlja-nachinajushih/"
+                    },
+                ],
                 "Angular": [
                     {
                         title: "Angular Основы. Полный Курс для начинающих",
