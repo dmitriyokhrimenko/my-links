@@ -204,6 +204,25 @@ export const data = {
             id: 6,
             title: "AWS",
             path: "/categories/aws",
+            subcategories: {
+                "AWS-IOT": [
+                    {
+                        title: "Production-Scale IoT Best Practices: Implementation with AWS (part 1) - fleet provisioning",
+                        description: "fleet provisioning",
+                        url: "https://www.doit-intl.com/production-scale-iot-best-practices-implementation-with-aws-part-1/",
+                    },
+                    {
+                        title: "15Min Fridays - AWS IoT Lamp using ESP32",
+                        description: "good english phrases to learn",
+                        url: "https://www.youtube.com/watch?v=4hdA3XSb3-A",
+                    },
+                    {
+                        title: "Triggering AWS Lambda from AWS IoT",
+                        description: "fleet provisioning",
+                        url: "https://www.youtube.com/watch?v=IkR2g0fJ94o",
+                    },
+                ],
+            },
         },
         "OS": {
             id: 7,
