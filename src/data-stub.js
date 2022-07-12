@@ -221,6 +221,11 @@ export const data = {
                         description: "fleet provisioning",
                         url: "https://www.youtube.com/watch?v=IkR2g0fJ94o",
                     },
+                    {
+                        title: "About choosing approach to interact with aws iot",
+                        description: "About choosing approach to interact with aws iot",
+                        url: "https://stackoverflow.com/questions/46723699/publishing-message-from-aws-lambda-to-aws-iot",
+                    },
                 ],
             },
         },
