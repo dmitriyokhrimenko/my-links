@@ -119,6 +119,12 @@ export const data = {
                         description: "About react router",
                         url: "https://www.ryanjyost.com/react-routing/"
                     },
+                    {
+                        title: "Многопоточность в Node.js: модуль worker_threads",
+                        description: "Многопоточность в Node.js: модуль worker_threads",
+                        url: "https://habr.com/ru/company/ruvds/blog/437984/"
+                    },
+
                 ],
                 "Nestjs": [
                     {
