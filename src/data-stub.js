@@ -237,6 +237,11 @@ export const data = {
                         description: "Just-in-time provisioning",
                         url: "https://docs.amazonaws.cn/en_us/iot/latest/developerguide/jit-provisioning.html#jit-provisioning-overview",
                     },
+                    {
+                        title: "How can I use JITP with AWS IoT Core?",
+                        description: "How can I use JITP with AWS IoT Core?",
+                        url: "https://aws.amazon.com/ru/premiumsupport/knowledge-center/aws-iot-core-jitp-setup/",
+                    },
                 ],
             },
         },
