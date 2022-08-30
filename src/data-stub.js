@@ -232,6 +232,11 @@ export const data = {
                         description: "About choosing approach to interact with aws iot",
                         url: "https://stackoverflow.com/questions/46723699/publishing-message-from-aws-lambda-to-aws-iot",
                     },
+                    {
+                        title: "Just-in-time provisioning",
+                        description: "Just-in-time provisioning",
+                        url: "https://docs.amazonaws.cn/en_us/iot/latest/developerguide/jit-provisioning.html#jit-provisioning-overview",
+                    },
                 ],
             },
         },
