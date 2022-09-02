@@ -242,6 +242,16 @@ export const data = {
                         description: "How can I use JITP with AWS IoT Core?",
                         url: "https://aws.amazon.com/ru/premiumsupport/knowledge-center/aws-iot-core-jitp-setup/",
                     },
+                    {
+                        title: "Device Shadows – Part 1 (MQTT Topics and REST APIs)",
+                        description: "Device Shadows – Part 1 (MQTT Topics and REST APIs) - important thing",
+                        url: "https://iotbytes.wordpress.com/device-shadows-part-1-basics/",
+                    },
+                    {
+                        title: "Tutorial: Interacting with Device Shadow using the sample app and the MQTT test client",
+                        description: "Tutorial: Interacting with Device Shadow using the sample app and the MQTT test client",
+                        url: "https://docs.amazonaws.cn/en_us/iot/latest/developerguide/interact-lights-device-shadows.html",
+                    },
                 ],
             },
         },
