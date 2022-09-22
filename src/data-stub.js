@@ -124,7 +124,11 @@ export const data = {
                         description: "Многопоточность в Node.js: модуль worker_threads",
                         url: "https://habr.com/ru/company/ruvds/blog/437984/"
                     },
-
+                    {
+                        title: "Node.js Async Best Practices & Avoiding the Callback Hell (must read)",
+                        description: "Node.js Async Best Practices & Avoiding the Callback Hell",
+                        url: "https://blog.risingstack.com/node-js-async-best-practices-avoiding-callback-hell-node-js-at-scale/"
+                    },
                 ],
                 "Nestjs": [
                     {
