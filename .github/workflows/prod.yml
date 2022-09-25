@@ -81,7 +81,7 @@ jobs:
           --description "Revision of the ${{ matrix.appname }}-${{ github.sha }}" \
           --ignore-hidden-files \
           --s3-location s3://${{ matrix.s3-bucket }}/${{ matrix.s3-filename }}.zip \
-          --source ./build
+          --source .
         working-directory: mylinks-build
       # Creating deployment via CodeDeploy
 #      - name: Creating AWS Deployment
