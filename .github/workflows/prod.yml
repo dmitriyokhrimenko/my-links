@@ -78,6 +78,7 @@ jobs:
         run: |
           SHA=${{ github.sha }}
           echo $SHA
+          ls -la
           sed -i "s/@ver@/$SHA/g" index.html
           aws s3 rm s3://mylinks-codedeploy-deployments --recursive
           aws s3 cp . s3://mylinks-codedeploy-deployments --recursive
