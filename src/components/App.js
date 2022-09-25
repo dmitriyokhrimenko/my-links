@@ -51,8 +51,8 @@ function App() {
           </Col>
         </Row>
           <footer className="page-footer font-small blue pt-4">
-            <div className="footer-copyright text-center py-3">© 2022 Copyright: dm.okhrimenko@gmail.com
-            </div>
+            <div className="footer-copyright text-center py-3">© 2022 Copyright: dm.okhrimenko@gmail.com</div>
+            <div className="footer-copyright text-right py-3">version @ver@</div>
           </footer>
       </Container>
   );
