@@ -208,6 +208,13 @@ export const data = {
                         url: "https://habr.com/ru/post/549874/",
                     }
                 ],
+                "Docker": [
+                    {
+                        title: "Deploy your docker containers with zero-downtime (important to the production deploy)",
+                        description: "Deploy your docker containers with zero-downtime",
+                        url: "https://dev.to/wassimbj/deploy-your-docker-containers-with-zero-downtime-o3f",
+                    }
+                ],
             },
         },
         "AWS": {
