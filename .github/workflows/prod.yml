@@ -76,10 +76,8 @@ jobs:
       # Deploy push to S3
       - name: AWS Deploy push
         run: |
-          ls -la ./static/js
-          ls -la static/js
           SHA=${{ github.sha }}
-          sed -i "s/@ver@/$SHA/g" static/js/main.*.chunk.js
+          sed -i "s/@ver@/$SHA/g" static/js/main.*.js
           aws s3 rm s3://mylinks-codedeploy-deployments --recursive
           aws s3 cp . s3://mylinks-codedeploy-deployments --recursive
         working-directory: mylinks-build
