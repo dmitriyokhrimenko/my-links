@@ -258,6 +258,11 @@ export const data = {
                         description: "Tutorial: Interacting with Device Shadow using the sample app and the MQTT test client",
                         url: "https://docs.amazonaws.cn/en_us/iot/latest/developerguide/interact-lights-device-shadows.html",
                     },
+                    {
+                        title: "AWS Iot REST API (Http)",
+                        description: "AWS Iot REST API (Http)",
+                        url: "https://docs.aws.amazon.com/iot/latest/apireference/API_ListThingPrincipals.html",
+                    },
                 ],
             },
         },
