@@ -124,6 +124,11 @@ export const data = {
                         description: "Node.js Async Best Practices & Avoiding the Callback Hell",
                         url: "https://blog.risingstack.com/node-js-async-best-practices-avoiding-callback-hell-node-js-at-scale/"
                     },
+                    {
+                        title: "Nodejs crash inside try catch - must be read",
+                        description: "Nodejs crash inside try catch - must be read",
+                        url: "https://blog.bitsrc.io/when-try-catch-doesnt-catch-errors-in-node-js-d2f339ed9cf4"
+                    },
                 ],
                 "Nestjs": [
                     {
