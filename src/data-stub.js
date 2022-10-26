@@ -286,5 +286,17 @@ export const data = {
             }
         //    https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/
         },
+        "Canada": {
+            id: 1,
+            title: "Canada",
+            path: "/categories/canada",
+            links: [
+                {
+                    title: "Dentist near Toronto",
+                    description: "Medicine",
+                    url: "https://www.smilecaredental.ca/"
+                }
+            ],
+        }
     }
 };
