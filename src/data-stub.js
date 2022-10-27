@@ -55,8 +55,20 @@ export const data = {
                 }
             ],
         },
-        "JAVASCRIPT":{
+        "REST_API" : {
             id: 3,
+            title: "Rest API",
+            path: "/categories/rest-api",
+            links: [
+                {
+                    title: "RESTful web API design",
+                    description: "RESTful web API design",
+                    url: "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+                }
+            ],
+        },
+        "JAVASCRIPT":{
+            id: 4,
             title: "JavaScript",
             path: "/categories/javascript",
             subcategories: {
@@ -185,7 +197,7 @@ export const data = {
             },
         },
         "TYPESCRIPT": {
-            id: 4,
+            id: 5,
             title: "Typescript",
             path: "/categories/typescript",
             links: [
@@ -197,7 +209,7 @@ export const data = {
             ],
         },
         "CI_CD": {
-            id: 5,
+            id: 6,
             title: "CI/CD",
             path: "/categories/ci-cd",
             subcategories: {
@@ -218,7 +230,7 @@ export const data = {
             },
         },
         "AWS": {
-            id: 6,
+            id: 7,
             title: "AWS",
             path: "/categories/aws",
             subcategories: {
@@ -272,7 +284,7 @@ export const data = {
             },
         },
         "OS": {
-            id: 7,
+            id: 8,
             title: "OS",
             path: "/categories/os",
             subcategories: {
@@ -284,10 +296,9 @@ export const data = {
                     },
                 ],
             }
-        //    https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/
         },
         "Canada": {
-            id: 1,
+            id: 9,
             title: "Canada",
             path: "/categories/canada",
             links: [
