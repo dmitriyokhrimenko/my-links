@@ -206,6 +206,11 @@ export const data = {
                     description: "TypeScript #0 Введение (Introduction)",
                     url: "https://www.youtube.com/watch?v=MtO76yEYbxA&list=PLNkWIWHIRwMEm1FgiLjHqSky27x5rXvQa"
                 },
+                {
+                    title: "Node.js and TypeScript Tutorial: Build a CRUD API",
+                    description: "Node.js and TypeScript Tutorial: Build a CRUD API",
+                    url: "https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/"
+                },
             ],
         },
         "CI_CD": {
