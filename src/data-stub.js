@@ -230,7 +230,17 @@ export const data = {
                         title: "Deploy your docker containers with zero-downtime (important to the production deploy)",
                         description: "Deploy your docker containers with zero-downtime",
                         url: "https://dev.to/wassimbj/deploy-your-docker-containers-with-zero-downtime-o3f",
-                    }
+                    },
+                    {
+                        title: "Docker Swarm для самых маленьких",
+                        description: "Docker Swarm для самых маленьких",
+                        url: "https://habr.com/ru/post/659813/",
+                    },
+                    {
+                        title: "Deploying Node.js apps in a local Kubernetes cluster",
+                        description: "Deploying Node.js apps in a local Kubernetes cluster",
+                        url: "https://learnk8s.io/deploying-nodejs-kubernetes",
+                    },
                 ],
             },
         },
