@@ -295,6 +295,11 @@ export const data = {
                         description: "AWS Iot REST API (Http)",
                         url: "https://docs.aws.amazon.com/iot/latest/apireference/API_ListThingPrincipals.html",
                     },
+                    {
+                        title: "Managing PostgreSQL users and roles",
+                        description: "Good explanation for the postgres",
+                        url: "https://aws.amazon.com/ru/blogs/database/managing-postgresql-users-and-roles/",
+                    },
                 ],
             },
         },
