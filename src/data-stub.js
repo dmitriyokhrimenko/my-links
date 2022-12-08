@@ -241,6 +241,11 @@ export const data = {
                         description: "Deploying Node.js apps in a local Kubernetes cluster",
                         url: "https://learnk8s.io/deploying-nodejs-kubernetes",
                     },
+                    {
+                        title: "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]",
+                        description: "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]",
+                        url: "https://www.youtube.com/watch?v=X48VuDVv0do",
+                    },
                 ],
             },
         },
