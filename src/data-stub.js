@@ -141,6 +141,11 @@ export const data = {
                         description: "Nodejs crash inside try catch - must be read",
                         url: "https://blog.bitsrc.io/when-try-catch-doesnt-catch-errors-in-node-js-d2f339ed9cf4"
                     },
+                    {
+                        title: "Building Robust Node Applications: Error Handling",
+                        description: "Building Robust Node Applications: Error Handling",
+                        url: "https://strongloop.com/strongblog/robust-node-applications-error-handling/"
+                    },
                 ],
                 "Nestjs": [
                     {
